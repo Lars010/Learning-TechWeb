@@ -16,3 +16,14 @@ font: var(--headline-headline1);
     color: #272343;
     margin-block-end: 1.5rem;
 }
+
+@media screen and (max-width: 1366px) {
+    .content {
+        max-inline-size: 22.5rem;
+        overflow-x: none;
+    }
+
+    .info-content img {
+        max-width: 22.5rem;
+    }
+}

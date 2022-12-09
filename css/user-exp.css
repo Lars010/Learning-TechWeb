@@ -1,0 +1,13 @@
+.goBack {
+display: flex;
+align-items: center;
+}
+
+.goBack p {
+    font: var(--body1-bold);
+}
+
+.description h3 {
+    font: var(--headline-headline2);
+    margin-block-end: 0;
+}

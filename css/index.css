@@ -1,0 +1,103 @@
+@import './user-exp.css';
+@import './fitts-law.css';
+
+
+:root { 
+  --white: #fffffe; 
+  --black: #272343; 
+  --green: #bae8e8; 
+  --grey: #7d8289; 
+  --subtitle2: 600 0.75rem/normal Nunito; 
+  --headline-headline1: 800 1.5rem/normal Nunito; 
+  --headline-headline2: 700 1.375rem/normal Nunito; 
+  --subtitle-subtitle1: 600 1.125rem/normal Nunito; 
+  --body1-regular: 400 1rem/1.5rem Nunito; 
+  --body1-bold: 700 1rem/1.5rem Nunito; 
+  --body2-regular: 400 0.875rem/normal Nunito; 
+  --body2-bold: 700 0.875rem/normal Nunito; 
+  --button-button: 500 0.875rem/1rem Rubik; 
+  --caption-caption: 400 0.6875rem/normal Nunito;        
+}
+
+body {
+  font: var(--headline-headline1);
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.content h1 {
+ font-size: 1.5rem;
+}
+
+.content p {
+  font-size: 0.875rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* border: 4px solid red; */
+}
+
+.content {
+  inline-size: 36.7rem;
+  /* border: 2px solid blue; */
+}
+
+.info-container {
+  /* border: 4px solid yellow; */
+  display: flex;
+  align-items: center;
+  padding-inline-start: 1rem;
+
+}
+
+.block {
+  background-color: #272343;
+  color: white;
+  margin-block-end: 1.5rem;
+  border-radius: 4px;
+}
+
+.block .foto {
+  padding-block-start: 1rem;
+}
+
+.blockList h4 {
+  font: var(--body1-bold);
+  margin-block-end: 0;
+}
+
+.blockList a {
+  font: var(--body1-bold);
+}
+
+.blockList .description {
+  display: block;
+  /* border: 1px solid green; */
+  margin-inline-start: 1rem;
+}
+
+.blockList .description p {
+  font: var(--body2-regular);
+}
+
+.blockList .button {
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+.blockList .button a {
+  text-decoration: none;
+  color: white;
+  font: var(--body1-bold);
+  padding-block-end: 1rem;
+}
+
+hr {
+ background: #7D8289;
+ block-size: 0;
+}
+
